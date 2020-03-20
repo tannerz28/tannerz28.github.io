@@ -9,6 +9,9 @@ npm run deploy
 # navigate into the build output directory
 cd dist
 
+echo 'www.tannergoins.com' > CNAME
+echo 'tannergoins.com' > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
