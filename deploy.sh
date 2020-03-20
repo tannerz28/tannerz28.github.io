@@ -10,7 +10,7 @@ npm run deploy
 cd dist
 
 echo 'www.tannergoins.com' > CNAME
-echo 'tannergoins.com' > CNAME
+echo 'tannergoins.com' >> CNAME
 
 git init
 git add -A
