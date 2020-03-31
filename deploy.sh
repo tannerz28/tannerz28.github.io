@@ -4,13 +4,10 @@
 set -e
 
 # build
-npm run deploy
+npm run generate
 
 # navigate into the build output directory
 cd dist
-
-echo 'www.tannergoins.com' > CNAME
-echo 'tannergoins.com' >> CNAME
 
 git init
 git add -A
